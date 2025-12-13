@@ -1,7 +1,10 @@
+import Home from "./pages/Home"
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-3xl font-bold">🎬 Welcome to Kinyaflix</h1>
+    <div className="bg-black min-h-screen text-white">
+      <h1 className="text-center text-3xl font-bold py-4">🎬 Kinyaflix</h1>
+      <Home />
     </div>
   )
 }
